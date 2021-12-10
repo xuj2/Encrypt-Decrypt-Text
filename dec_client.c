@@ -7,7 +7,7 @@
 #include <netdb.h>      // gethostbyname()
 #define MAX_CHAR 999999 //max size for data to send
 
-char *server_hostname = "localhost";
+char *server_hostname = "servername";
 
 // Error function used for reporting issues
 void error(const char *msg) { 
